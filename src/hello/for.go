@@ -13,5 +13,8 @@ func main() {
 	for ; sum1 < 1000; {
 		sum1 += sum1
 	}
-	fmt.Println(sum)
+	fmt.Println(sum1)
+
+    // for {
+	// }
 }
