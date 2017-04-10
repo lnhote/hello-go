@@ -8,10 +8,12 @@ import (
 type Vertex struct {
 	X, Y float64
 }
+
 // Vertex.Abs
 func (v Vertex) Abs() float64 {
 	return math.Sqrt(v.X*v.X + v.Y*v.Y)
 }
+
 // Vertex.Abs
 func (v *Vertex) AbsFunc() float64 {
 	return math.Sqrt(v.X*v.X + v.Y*v.Y)

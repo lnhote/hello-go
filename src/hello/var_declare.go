@@ -1,16 +1,16 @@
 package main
 
 import (
-    "fmt"
+	"fmt"
 )
 
 func main() {
-    z := 0
-    fmt.Println("z=", z)
+	z := 0
+	fmt.Println("z=", z)
 
-    var a = 0
-    fmt.Println("a=", a)
+	var a = 0
+	fmt.Println("a=", a)
 
-    var b int
-    fmt.Println("b=", b)
+	var b int
+	fmt.Println("b=", b)
 }
