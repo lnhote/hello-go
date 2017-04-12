@@ -1,15 +1,16 @@
 package main
 
 import (
-    "fmt"
+	"fmt"
 )
+
 /**
 first in last out
 last in first out
 */
 func main() {
-    defer fmt.Println("World")
-    fmt.Println("Hello")
+	defer fmt.Println("World")
+	fmt.Println("Hello")
 
 	fmt.Println("counting")
 
