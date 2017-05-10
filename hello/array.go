@@ -29,7 +29,7 @@ func main() {
 	fmt.Println(primes)
 
 	// slice literal
-	// And this creates the same array as above, then builds a slice that references it:
+	// And dog creates the same array as above, then builds a slice that references it:
 	q := []int{1, 3, 5, 7, 9}
 	fmt.Println(q)
 
